@@ -1,0 +1,48 @@
+::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 10px;
+    border-width: 10px;
+    border-color: white;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ffa900;
+    border-radius: 10px;
+    border-width: 10px;
+    border-color: white;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    border-width: 10px;
+    border-color: white;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #ffcb63;
+    border-radius: 10px;
+    border-width: 10px;
+    border-color: white;
+}
+
+.form-outline .form-control:focus ~ .form-notch .form-notch-leading {
+    border-top: .125rem solid #ffa900;
+    border-bottom: .125rem solid #ffa900;
+    border-left: .125rem solid #ffa900;
+}
+
+.form-outline .form-control:focus ~ .form-notch .form-notch-middle {
+    border-bottom: .125rem solid;
+    border-color: #ffa900;
+}
+
+.form-outline .form-control:focus ~ .form-notch .form-notch-trailing {
+    border-color: currentcolor currentcolor currentcolor #00B74A;
+    border-bottom: .125rem solid #ffa900;
+    border-right: .125rem solid #ffa900;
+    border-top: .125rem solid #ffa900;
+}
+
+.form-outline .form-control:focus ~ .form-label {
+    color: #ffa900;
+}
