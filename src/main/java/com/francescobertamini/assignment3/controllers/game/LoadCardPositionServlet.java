@@ -12,7 +12,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 
 @WebServlet(name = "LoadCardPosistion", value = "/getCardPosition")
-public class LoadCardPosition extends HttpServlet {
+public class LoadCardPositionServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
