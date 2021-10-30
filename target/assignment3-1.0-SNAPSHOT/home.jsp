@@ -13,24 +13,20 @@
 <head>
     <meta charset="utf-8">
     <title>Home</title>
-    <!-- Font Awesome -->
-
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <link
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
             rel="stylesheet"
     />
-    <!-- Google Fonts -->
     <link
             href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
             rel="stylesheet"
     />
-    <!-- MDB -->
-
     <link
             href="${pageContext.request.contextPath}/css/mdb.min.css"
             rel="stylesheet"
     />
-
     <link
             href="${pageContext.request.contextPath}/css/main.css"
             rel="stylesheet"
@@ -56,10 +52,8 @@
                 </li>
             </ul>
         </div>
-
         <div class="d-flex align-items-center">
             <a class="d-flex btn btn-danger" style="margin-right: 10px" href="./logout">Log out</a>
-            <!-- Icon -->
             <div class="chip chip-lg bg-warning" style="font-size: 15px;">${user.username}</div>
         </div>
     </div>
@@ -96,6 +90,7 @@
 &nbsp;
 <div class="text-center container"><a class="btn btn-success" href="./play" style="margin-top: 20px;">
     Play game <i class="fas fa-play"></i></a></div>
+
 <script
         type="text/javascript"
         src="${pageContext.request.contextPath}/js/mdb.min.js"

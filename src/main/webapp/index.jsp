@@ -5,7 +5,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Chat Application</title>
+    <title>Memory game</title>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
             integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <link
@@ -28,7 +28,7 @@
 
 <body>
 <div class="p-5 text-center bg-light">
-    <h1 class="mb-3">Chat application</h1>
+    <h1 class="mb-3">Memory game</h1>
     <h4 class="mb-3">Made by Francesco Bertamini</h4>
 </div>
 &nbsp;
