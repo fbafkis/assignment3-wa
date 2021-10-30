@@ -53,6 +53,7 @@
             </ul>
         </div>
         <div class="d-flex align-items-center">
+            <a class="d-flex btn btn-danger" style="margin-right: 10px" href="./logout">Log out</a>
             <div class="chip chip-lg bg-warning" style="font-size: 15px;">${user.username}</div>
         </div>
     </div>
